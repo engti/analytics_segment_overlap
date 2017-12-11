@@ -50,6 +50,7 @@ mySegment<- list(container=list(type=unbox("visits"), // creates a visit level s
 ```
 
 ## Results
+This is a sample output, as I cannot share proprietary data out here. And the results have been visualised in Excel, but hopefully in the future this step would also be done within R.
 ![Result](result.PNG)
 
 ## To Dos
