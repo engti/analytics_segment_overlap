@@ -53,6 +53,8 @@ mySegment<- list(container=list(type=unbox("visits"), // creates a visit level s
 This is a sample output, as I cannot share proprietary data out here. And the results have been visualised in Excel, but hopefully in the future this step would also be done within R.
 ![Result](result.PNG)
 
+The way to read this is that, for example, product 8 and product 4 are viewed in the same visit in 21% of all visits.
+
 ## To Dos
 * Visualise the results better within R
 * Make it more plug and play using Shiny App
