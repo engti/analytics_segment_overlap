@@ -49,6 +49,12 @@ mySegment<- list(container=list(type=unbox("visits"), // creates a visit level s
                                       )))
 ```
 
+## Results
+![Result](result.PNG)
+
+## To Dos
+* Visualise the results better within R
+* Make it more plug and play using Shiny App
 
 
 
