@@ -56,6 +56,7 @@ This is a sample output, as I cannot share proprietary data out here. And the re
 The way to read this is that, for example, product 8 and product 4 are viewed in the same visit in 21% of all visits.
 
 ## To Dos
+* The final percantage calculation is currently done manually, automate that in next build
 * Visualise the results better within R
 * Make it more plug and play using Shiny App
 
