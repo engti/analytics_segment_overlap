@@ -23,7 +23,7 @@ This is a simple showcase, and as such only 2 things are defined here:
 
 ## Get Segment Building Blocks
 I have access to an account which stores some key product identifiers in *eVar7*, so I am going to use the top entries from that report to see how many of them are being viewed together in the same visit. For example, did the user see product 1 and product 2 within the same visit.
-
+```
   models <- QueueRanked(
     reportsuite.id = rsid,
     date.from = date_range$start,
@@ -32,6 +32,7 @@ I have access to an account which stores some key product identifiers in *eVar7*
     elements = "evar7",
     top = 10
   )  
+```
 
 ## Calculate Overlap
 
