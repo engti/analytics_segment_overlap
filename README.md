@@ -35,6 +35,19 @@ I have access to an account which stores some key product identifiers in *eVar7*
 ```
 
 ## Calculate Overlap
+Here we loop through the product combinations to get the overlap between each product combo.
+
+### Definining Segment Dynamically
+We use SiteCatalyst's segment feature to get the number of visits within which a product combination was viewed. This is the key part some people may stumble over. We use the **jsonlite** package to construct this **json** object.
+```
+mySegment<- list(container=list(type=unbox("visits"), // creates a visit level segment
+                                      rules = data.frame(
+                                        name = "models", // can be anything
+                                        element = "evar7", // which element to create a segment using
+                                        operator = "contains", // segment operator
+                                        value = product_id // contains the product values
+                                      )))
+```
 
 
 
