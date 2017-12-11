@@ -58,7 +58,7 @@ The way to read this is that, for example, product 8 and product 4 are viewed in
 ## To Dos
 * The final percentage calculation is currently done manually, automate that in next build
 * Visualise the results better within R
-* Make it more plug and play using Shiny App
+* Make it more plug and play for different projects
 
 
 
