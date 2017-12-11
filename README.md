@@ -1,5 +1,5 @@
 # Adobe Analytics: Calculating overlapping segments
-Small piece of code to look at overlap of segments within Adobe Analytics.
+Small piece of R code to look at overlap of segments within Adobe Analytics. It uses the Web API feature of Adobe Analytics to fetch the data.
 
 ## Setup
 The library assumes you have the following packages installed:
