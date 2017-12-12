@@ -31,14 +31,14 @@
 ## calculate overlap in visits for each model combination
   for (i in 1:(nrow(product_id)-1)) {
     for (j in (i + 1) : nrow(product_id)) {
-      models <- c(product_id$name[i],product_id$name[j])
+      product_segment <- c(product_id$name[i],product_id$name[j])
       ## create segment
       mySegment<- list(container=list(type=unbox("visits"),
                                       rules = data.frame(
                                         name = "models",
                                         element = "evar7",
                                         operator = "contains",
-                                        value = product_id
+                                        value = product_segment
                                       )))
       ## get data
       # df1 <- QueueRanked(
