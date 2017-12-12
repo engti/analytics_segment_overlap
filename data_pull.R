@@ -59,8 +59,8 @@
       
       df3 <- df2 %>% select(visits) %>%
         mutate(
-          model1 = car_models$name[i],
-          model2 = car_models$name[j]
+          model1 = product_id$name[i],
+          model2 = product_id$name[j]
         ) %>% select(model1,model2,visits)
       
       if(i == 1 & j == 2){
